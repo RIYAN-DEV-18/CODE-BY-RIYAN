@@ -1,0 +1,57 @@
+#include <iostream>
+using namespace std;
+int main() {
+  cout << "BY THE NAME OF ALLAH ";
+  cout << "ALLMIGHTY !\n ";
+  cout << "THE MOST MERCIFUL ! \n";
+  cout << "\n";
+  cout << "TASK-1\n";
+  cout << "\n";
+  cout << "  *  \n";
+  cout << " *** \n";
+  cout << "*****\n";
+  cout << " *** \n";
+  cout << "  *  \n";
+  cout << "\n";
+  cout << "TASK-2\n";
+  cout << "\n";
+  cout << "************\n";
+  cout << "*           *\n";
+  cout << "*          *\n";
+  cout << "*          *\n";
+  cout << "************\n";
+  cout << "\n";
+  cout << "TASK-3\n";
+  cout << "\n";
+  cout << "  *\n";
+  cout << "  **\n";
+  cout << " ***\n";
+  cout << " ****\n";
+  cout << "***** \n";
+  cout << "\n";
+  cout << "TASK-4\n";
+  cout << "\n";
+  cout << "   *\n";
+  cout << "   **\n";
+  cout << "  ***\n";
+  cout << " ****\n";
+  cout << "*****\n";
+  cout << "\n";
+  cout << "TASK-5\n";
+  cout << "\n";
+  cout << "*****\n";
+  cout << "**** \n";
+  cout << "***  \n";
+  cout << "**   \n";
+  cout << "*    \n";
+  cout <<"\n";
+  cout << "TASK-6 THE LAST ONE \n";
+  cout << "\n";
+  cout << "*****\n";
+  cout << " ****\n";
+  cout << "  ***\n";
+  cout << "   **\n";
+  cout << "    *\n";
+  return 0;
+}
+
