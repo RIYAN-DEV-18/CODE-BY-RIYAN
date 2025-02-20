@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main(){
+  // cout << "STARTING BY THE NAME OF ALLAH THE MOST MERCIFUL THE MOST FORGIVING \n";
+  // cout << "\n";
+  // int first_Number = 56;
+  // int second_Number = 18;
+  // int product = first_Number*second_Number;
+  // cout << "first_Number = "<<first_Number<<"\n";
+  // cout << "second_Number = "<<second_Number<<"\n";
+  // cout << "product Of Two Numbers = "<<product<<"\n";
+  // cout <<"\n";
+  // cout << ":) :) :) :) :) ..........\n";
+ int e = 56;
+ int b = e + 1; 
+ int f = b;
+ int c = f + b;
+ int d = c + c ;
+ int a = f + f ;
+ cout << a << " = " << a << " = True "<< "\n";
+ cout << b << " = " << b << " = True "<< "\n";
+ cout << c << " = " << c << " = True "<< "\n";
+ cout << d << " = " << d << " = True "<< "\n";
+ cout << e << " = " << e << " = True "<< "\n";
+cout << f << " = " << f <<  " = True "<< "\n";
+ return 0; 
+}
