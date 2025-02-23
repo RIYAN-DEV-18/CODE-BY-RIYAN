@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main(){
+  int money = 9475;
+  cout<<"We have total of 9474 Rupees \n";
+  cout<<"thousand Bills = "<<money/1000<<"\n";
+  cout<<"five hundred Bills = "<<(money%1000)/500<<"\n";
+  cout<<"hundred Bills = "<<(money%500)/100<<"\n";
+  cout<<"fifty Bills = "<<(money%100)/50<<"\n";
+  cout<<"ten Bills = "<<(money%50)/10<<"\n";
+  cout<<"five Bills = "<<(money%10)/5<<"\n";
+  cout<<"Thanks for reviewing the code :) \n";
+  return 0;}
