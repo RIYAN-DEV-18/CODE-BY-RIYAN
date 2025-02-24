@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int main(){
+  int Num1,Num2,Num3;
+  cout<<"enter Num1 =\n";
+  cin>>Num1;
+  cout<<"enter Num2 =\n";
+  cin>>Num2;
+  cout<<"enter Num3 =\n";
+  cin>>Num3;
+  cout<<"Sum of three Digits = "<<Num1+Num2+Num3<<"\n";
+  cout<<"Product of three Digits = "<<Num1*Num2*Num3<<"\n";
+  cout<<"Average of three Digits = "<<(Num1+Num2+Num3)/3<<"\n";
+  if (Num1<Num2&&Num1<Num3)
+  cout<<"smallest Number = "<<Num1<<"\n";
+  else if (Num2<Num1&&Num2<Num3)
+  cout<<"smallest Number = "<<Num2<<"\n";
+  else if (Num3<Num2&&Num3<Num1)
+  cout<<"smallest Number = "<<Num3<<"\n";
+  if (Num1>Num2&&Num1>Num3)
+  cout<<"largest Number = "<<Num1<<"\n";
+  else if (Num2>Num1&&Num2>Num3)
+  cout<<"largest Number = "<<Num2<<"\n";
+  else if (Num3>Num1&&Num3>Num2)
+  cout<<"largest Number = "<<Num3<<"\n";
+  cout<<"Thanks for reviewing the code :) \n";
+  return 0;
+}
