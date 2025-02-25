@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main(){
+  cout<<"We have to seperate the five Digit Number into five integers \n";
+  int num;
+  cout<<"enter the five Digit Number = \n";
+  cin>>num;
+  cout<<"first Digit = "<<num/10000<<"\n";
+  cout<<"second Digit = "<<(num%10000)/1000<<"\n";
+  cout<<"third Digit = "<<(num%1000)/100<<"\n";
+  cout<<"fourth Digit = "<<(num%100)/10<<"\n";
+  cout<<"fifth Digit = "<<(num%10)/1<<"\n";
+  cout<<"Thanks for reviewing the code :) \n";
+  return 0;}
