@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int a = 0;
+int b = 1;
+int c = 2;
+int d = 3;
+int e = 4;
+int f = 5;
+int g = 6;
+int h = 7;
+int i = 8;
+int j = 9;
+int k = 10;
+cout<<"\n";
+cout<<"Number                 Square                      Cube \n";
+cout<<(a)<<"                        "<<(a*a)<< "                           "<<(a*a*a)<<"\n"; 
+cout<<(b)<<"                        "<<(b*b)<< "                           "<<(b*b*b)<<"\n";
+cout<<(c)<<"                        "<<(c*c)<< "                           "<<(c*c*c)<<"\n";
+cout<<(e)<<"                        "<<(e*e)<< "                          "<<(e*e*e)<<"\n";
+cout<<(f)<<"                        "<<(f*f)<< "                          "<<(f*f*f)<<"\n";
+cout<<(g)<<"                        "<<(g*g)<< "                          "<<(g*g*g)<<"\n";
+cout<<(h)<<"                        "<<(h*h)<< "                          "<<(h*h*h)<<"\n";
+cout<<(i)<<"                        "<<(i*i)<< "                          "<<(i*i*i)<<"\n";
+cout<<(j)<<"                        "<<(j*j)<< "                          "<<(j*j*j)<<"\n";
+ cout<<(k)<<"                       "<<(k*k)<< "                         "<<(k*k*k)<<"\n";
+return 0;
+}
