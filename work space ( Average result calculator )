@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main(){
+int marks ;
+int total = 0;
+for (int x =1;x<=5;x++){
+   cout<<"Enter Your Marks =\n";
+   cin>>marks;
+   total  =  total + marks;}
+  cout<<"Total marks = "<<total<<"\n";
+  
+   cout<<"Average marks ="<< (total/5)<<"\n";
+}
