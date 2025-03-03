@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    cout << "Hello, World!\n";
+    cout<<"\n";
+    
+    int i = 1;
+    int x = 1;
+   while (x <= 10) {
+      
+     x++;
+   cout <<i++<<"--program is write !\n";
+   }
+    return 0;
+}
