@@ -1,0 +1,19 @@
+void milage() {
+  
+  cout<<"<<<<<<<< CAR_MILAGE >>>>>>>>>>\n";
+  cout<<"\n";
+  int distance,totalFuel,totalfuelCost;
+  cin>>distance;
+  cin>>totalFuel;
+  int LitreFuel = 267 ;
+  cout<<"Total_distance_traveled = "<<distance<<" km/h"<<"\n";
+  cout<<"total_Fuel_Consumption = "<<totalFuel<<" Litres"<<"\n";
+  cout<<"total_Fuel_Cost = "<<LitreFuel*totalFuel<<" Rs /-"<<"\n";
+  cout<<"Milage  = "<<distance/totalFuel<<" Liters/Km"<<"\n";
+  
+}
+
+int main() {
+  milage();
+return 0;
+}
