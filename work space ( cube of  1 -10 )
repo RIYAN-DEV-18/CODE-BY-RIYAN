@@ -7,5 +7,10 @@ cout<<"\n";
 for(int x = 1;x<=10;x++)
   cout<<"Cube of "<<x<<" = "<<x*x*x<<"\n";
   cout<<"\n";
-  
+
+}
+
+int main () {
+power();
+
 }
