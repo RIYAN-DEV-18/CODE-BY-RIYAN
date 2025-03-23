@@ -1,0 +1,16 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+   int length = 0;
+    string name;
+    cout<<"Enter the Name : ";
+    getline(cin, name);
+    for (int i = 0; i < name[i]; i++){
+     length = i;
+    }
+    cout<<"lenght of String = "<< length<<"\n";
+ 
+}
+
+    
