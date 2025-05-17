@@ -1,0 +1,53 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+    
+    string seats[5] = {"A1","B1","G1","D2","J3"};
+    cout<<"--------------------------------"<<endl;
+    cout<<"|       Welcome to our Seat booking System        |"<<endl;
+     cout<<"--------------------------------"<<endl;
+
+    for (int i = 0; i < 5; i++){
+        cout<<seats[i]<<endl;
+    }
+    
+    cout<<"Enter seat number u want to book: ";
+    string seat_Number;
+    cin>>seat_Number;
+    cout<<endl;
+    bool seat_found = false;
+    
+    for (int k = 0; k < 5; k++) {
+        if (seats[k] == seat_Number) {
+            seat_found = true;
+            seats[k] = "X";
+            
+            break;
+        }
+        
+    }
+    if(seat_found){
+        cout<<"seat Number booked Successfully"<<endl;
+    }
+    
+    if(!seat_found){
+        cout<<"seat Not found !"<<endl;
+    }
+    cout<<"---------------------------"<<endl;
+    cout<<"Seat Bookings"<<endl;
+    cout<<"---------------------------"<<endl;
+    
+    for(int i = 0; i < 5; i++){
+        cout<<seats[i]<<endl;
+    }
+    
+    cout<<"                                X = Booked already !";
+return 0;
+}
+
+    
+
+    
+   
